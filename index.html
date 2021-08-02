@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h3 class='h-wel'>Login to get started</h3>
+      <h3>MONEY ENTERPRISE</h3>
+      <form>
+        <input type="text" placeholder="user" class="inputTxt h-txt" />
+        <input type="text" placeholder="PIN" class="inputTxt h-pass" />
+        <input type="button" class="btn h-btn" value="&rarr;" />
+      </form>
+    </div>
+
+    <div class="app">
+      <div class="current">
+        <div class="current-left">
+          <h2>Current balance</h2>
+          <p>As of <span class='c-left-para'>05/03/2037</span></p>
+        </div>
+
+        <div class="current-right">
+          <p>0000€</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="app-left">
+          <div class="movements">
+            <div class="row">
+              <div class="movements__type movements__type--deposit">
+                2 deposit
+              </div>
+              <div class="movements__date">3 days ago</div>
+              <div class="movements__value">4 000€</div>
+            </div>
+
+            <div class="row">
+              <div class="movements__type movements__type--withdrawal">
+                1 withdrawal
+              </div>
+              <div class="movements__date">24/01/2037</div>
+              <div class="movements__value">500€</div>
+            </div>
+          </div>
+          <div class="summary">
+            <p class="s-in">in</p>
+            <p class="coin s-in-value">0000€</p>
+            <p class="s-out">out</p>
+            <p class="coin s-out-value">0000€</p>
+            <p class="interest">interest</p>
+            <p class="coin interest-value">0000€</p>
+            <button class="btn--sort">&downarrow; SORT</button>
+            <!-- LOGOUT TIMER -->
+           
+          </div>
+          
+    </main>
+        </div>
+
+        <div class="app-right">
+          <div class="operation transfer">
+            <h3>Transfer Money</h3>
+            <form class="form">
+              <input type="text" class="inputTxt trans-txt" />
+              <input type="number" class="inputTxt trans-num" />
+
+              <input type="button" class="btn trans-btn" value="&rarr;" />
+
+              <label class="label trans-a-label">Transfer to</label>
+              <label class="label trans-b-label">Amount</label>
+            </form>
+          </div>
+          <div class="operation loan">
+            <h3>Request Loan</h3>
+            <form class="form">
+              <input type="number" class="loan-num inputTxt" />
+
+              <input class="btn loan-btn" type="button" value="&rarr;" />
+
+              <label class="label loan-label">Amount</label>
+            </form>
+          </div>
+          <div class="operation close">
+            <h3>Close account</h3>
+            <form class="form">
+              <input type="text" class="close-txt inputTxt" />
+              <input type="text" class="close-num inputTxt" />
+
+              <input type="button" class="btn btn-close" value="&rarr;" />
+
+              <label class="label close-a-label">Account</label>
+              <label class="label close-b-label">PIN</label>
+            </form>
+          </div>
+          <p class="logout-timer">
+            You will be logged out in <span class="timer">05:00</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="bank.js">
+
+  </script>
+</html>
