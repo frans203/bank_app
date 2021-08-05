@@ -31,12 +31,11 @@ body {
   padding: 8px 12px;
 }
 .btn {
-  width: 50px;
+  width: 35px;
   border-radius: 20px;
 
   font-size: 25px;
   border: 1px solid black;
-  padding-bottom: 5px;
 }
 .header .btn {
   width: 80px;
